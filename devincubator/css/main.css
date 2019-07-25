@@ -1,0 +1,73 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f6f7fa;
+    width: 1530px !important; 
+}
+.header{
+}
+.header .col-lg-2{
+background-color: #0E0874;
+height: 100px;
+text-align: center;
+display: inline-flex;
+}
+.header .col-lg-9{
+background-color: white;
+}
+.header .col-lg-1{
+background-color: white;
+}
+#center{
+background-color: #f6f7fa;    
+}
+A {
+color: white;
+text-decoration: none;
+}
+A:active {
+color: white; /* Цвет активных ссылок */
+text-decoration: none;
+}
+A:hover{
+text-decoration: none;
+}
+.leftside{
+background-color: #0E0874;
+height: 100vw;
+padding-left: 0px;
+padding-right: 0px;
+}
+.navbar{
+padding-left: 0px;
+padding-right: 0px;
+width: 100%;
+}
+.nav-link{
+width: 16.6vw;
+padding-left: 20px;
+}
+.navbar a:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 20px; /* Поля вокруг текста */  
+   } 
+.navbar a:hover {
+    background: #604BD8; /* Цвет фона под ссылкой */ 
+    color: #C9C9C9; /* Цвет ссылки */ 
+   } 
+.icons{
+padding-right: 10px;
+width: 35px;
+}
+.place{
+    transform: translate3d(-75px, 80px, 0px) !important;
+}
+.Todo{
+color: black;
+font-weight: bold;
+font-size: 32px;
+padding-top: 40px;
+padding-left: 30px;
+}
+.settingscard{
+left: 30px;
+}
